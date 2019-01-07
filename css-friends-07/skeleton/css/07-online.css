@@ -1,1 +1,29 @@
 /* PHASE 7: Online */
+.online {
+    /* position: absolute;
+    top: 15px;
+    color: white;
+    background-color: limegreen;
+    /* transform: rotate(-45deg); */
+    /* transform: translate3d(0px,-10px,5px) rotate(-45deg);
+    -webkit-transform: rotate(-45deg); 
+    padding: 5px;
+    box-shadow: 0 0 10px 0 black;
+    width: 25%; */ 
+     -webkit-transform: rotate(-45deg); 
+     -moz-transform: rotate(-45deg); 
+      -ms-transform: rotate(-45deg); 
+       -o-transform: rotate(-45deg); 
+          transform: rotate(-45deg); 
+    border: 25px solid black;
+    border-top: 25px solid #757575;
+    position: absolute;
+    bottom: 10px;
+    right: -50px;
+    padding: 0 10px;
+    width: 120px;
+    color: white;
+    font-family: sans-serif;
+    size: 11px;
+    
+}
