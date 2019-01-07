@@ -1,3 +1,11 @@
+Function.prototype.myBind = function (ctx) {
+    const args = Array.from(arguments).slice(1);
+    const that = this;
+    return function ()  {
+        that.apply(ctx, args.concat(Array.from(arguments)));
+    }; 
+};
+
 Function.prototype.myBind = function (ctx, ...bindArgs) {
     return (...callArgs) => this.apply(ctx, bindArgs.concat(callArgs));
 }
